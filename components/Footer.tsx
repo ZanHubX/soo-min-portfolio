@@ -19,10 +19,10 @@ export default function Footer() {
             transition={{ duration: 0.5 }}
           >
             <p className="text-xl font-medium tracking-[-0.03em] text-[#17324d]">
-              {profile.nickname}
+              {profile.name}
 
               <span className="ml-2 text-sm font-normal text-[#60758a]">
-                ({profile.name})
+                ({profile.nickname})
               </span>
             </p>
 

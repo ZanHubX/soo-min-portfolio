@@ -24,9 +24,9 @@ export default function Navbar() {
             onClick={() => setIsOpen(false)}
             className="text-xl font-medium tracking-[-0.03em] text-[#17324d]"
           >
-            Soo Min
+            Phoo Pwint Zaw
             <span className="ml-2 text-sm font-normal text-[#60758a]">
-              (Phoo Pwint Zaw)
+              (Soo Min)
             </span>
           </a>
 
