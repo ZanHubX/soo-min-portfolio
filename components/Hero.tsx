@@ -63,7 +63,7 @@ export default function Hero() {
               }}
               className="mt-3 text-[3.2rem] font-medium leading-[0.95] tracking-[-0.055em] text-[#17324d] sm:text-6xl lg:text-[6rem]"
             >
-              {profile.nickname}
+              {profile.name}
             </motion.h1>
 
             {/* Full Name */}
@@ -76,7 +76,7 @@ export default function Hero() {
               }}
               className="mt-3 text-lg text-[#5f82a2] sm:text-2xl"
             >
-              {profile.name}
+              {profile.nickname}
             </motion.p>
 
             {/* Role */}
